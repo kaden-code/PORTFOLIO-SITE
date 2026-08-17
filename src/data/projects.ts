@@ -15,6 +15,47 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+  id: "portfolio-site",
+  title: "Interactive Engineering Portfolio Website",
+  dateCompleted: "Aug 2026",
+  description:
+    "A fully responsive React and TypeScript portfolio website built to showcase embedded systems, robotics, computer vision, IoT, and full-stack projects. The site includes a polished project carousel, custom project dropdown, category filters, animated transitions, resume download, contact page, responsive mobile layout, and deployment-ready routing for Vercel.",
+  codeUrl: "https://github.com/kaden-code/PORTFOLIO-SITE",
+  youtubeId: "",
+  languages: ["TypeScript", "JavaScript", "HTML", "CSS"],
+  frameworks: ["React", "Vite", "Tailwind CSS"],
+  libraries: ["Framer Motion", "Lucide React", "React Icons", "React Router"],
+  hardware: [],
+  lineCount: "",
+  challenges: [
+    "Designed a responsive portfolio layout that works cleanly across desktop and mobile screens.",
+    "Built a custom project carousel that displays one project at a time with Previous, Next, Shuffle, and direct jump controls.",
+    "Implemented category filters for Embedded, Robotics, Computer Vision, Full-Stack, and IoT projects.",
+    "Replaced the native project select menu with a custom mobile-friendly dropdown.",
+    "Fixed mobile overflow issues",
+    "Added animated project transitions using Framer Motion while keeping the interface fast and usable.",
+    "Created a dedicated contact page with resume download, GitHub, LinkedIn, email, and phone links.",
+    "Configured the site for production deployment with Vite and Vercel.",
+    "Solved React Router deployment issues by preparing the project for single-page app routing.",
+  ],
+  skills: [
+    "React component architecture",
+    "TypeScript development",
+    "Responsive web design",
+    "Tailwind CSS styling",
+    "Frontend animation with Framer Motion",
+    "React Router navigation",
+    "Custom dropdown UI development",
+    "State management with React hooks",
+    "Project filtering and carousel logic",
+    "Mobile-first debugging",
+    "Vite production builds",
+    "Vercel deployment workflow",
+    "Git and GitHub version control",
+    "Portfolio UX design",
+  ],
+},
    {
     id: "esp32-flight-controller",
     title: "Drone Flight Controller + PID Tuning Website",
