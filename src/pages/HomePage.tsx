@@ -22,6 +22,7 @@ const categories: ProjectCategory[] = [
 ];
 
 const projectCategories: Record<string, ProjectCategory[]> = {
+  "portfolio-site": ["Full-Stack"],
   "esp32-flight-controller": ["Embedded", "Robotics", "IoT", "Full-Stack"],
   "scooter-led-modification": ["Embedded", "IoT", "Full-Stack"],
   "hand-tracking-pong": ["Computer Vision"],
