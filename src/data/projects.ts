@@ -15,17 +15,22 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
+{
   id: "portfolio-site",
   title: "Interactive Engineering Portfolio Website",
   dateCompleted: "Aug 2026",
   description:
-    "A fully responsive React and TypeScript portfolio website built to showcase embedded systems, robotics, computer vision, IoT, and full-stack projects. The site includes a polished project carousel, custom project dropdown, category filters, animated transitions, resume download, contact page, responsive mobile layout, and deployment-ready routing for Vercel.",
+    "A fully responsive React and TypeScript portfolio website built to showcase embedded systems, robotics, computer vision, IoT, and full-stack projects. The site includes a polished project carousel, custom project dropdown, category filters, animated transitions, a guided portfolio chatbot, resume download, contact page, responsive mobile layout, and deployment-ready routing for Vercel.",
   codeUrl: "https://github.com/kaden-code/PORTFOLIO-SITE",
   youtubeId: "",
   languages: ["TypeScript", "JavaScript", "HTML", "CSS"],
   frameworks: ["React", "Vite", "Tailwind CSS"],
-  libraries: ["Framer Motion", "Lucide React", "React Icons", "React Router"],
+  libraries: [
+    "Framer Motion",
+    "Lucide React",
+    "React Icons",
+    "React Router",
+  ],
   hardware: [],
   lineCount: "",
   challenges: [
@@ -33,8 +38,10 @@ export const projects: Project[] = [
     "Built a custom project carousel that displays one project at a time with Previous, Next, Shuffle, and direct jump controls.",
     "Implemented category filters for Embedded, Robotics, Computer Vision, Full-Stack, and IoT projects.",
     "Replaced the native project select menu with a custom mobile-friendly dropdown.",
-    "Fixed mobile overflow issues",
+    "Fixed mobile overflow issues so the site no longer scrolls sideways on small screens.",
     "Added animated project transitions using Framer Motion while keeping the interface fast and usable.",
+    "Created a guided portfolio chatbot that highlights projects, technical strengths, and role fit without requiring an API key or backend.",
+    "Built preset chatbot prompts and keyword-based fallback responses for embedded systems, robotics, computer vision, IoT, full-stack work, and hiring fit.",
     "Created a dedicated contact page with resume download, GitHub, LinkedIn, email, and phone links.",
     "Configured the site for production deployment with Vite and Vercel.",
     "Solved React Router deployment issues by preparing the project for single-page app routing.",
@@ -47,6 +54,8 @@ export const projects: Project[] = [
     "Frontend animation with Framer Motion",
     "React Router navigation",
     "Custom dropdown UI development",
+    "Guided chatbot UI development",
+    "Keyword-based response logic",
     "State management with React hooks",
     "Project filtering and carousel logic",
     "Mobile-first debugging",

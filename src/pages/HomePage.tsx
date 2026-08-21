@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { BrainCircuit, ChevronDown, Code2, Cpu } from "lucide-react";
 import { ProjectCard } from "../components/ProjectCard";
+import { PortfolioChatbot } from "../components/PortfolioChatbot";
 import { projects } from "../data/projects";
 
 type ProjectCategory =
@@ -310,7 +311,7 @@ export function HomePage() {
             </div>
           </div>
         </motion.section>
-
+        
         <section id="project-viewer" className="pb-10 md:pb-16">
           <motion.div
             className="relative z-30 mb-4 rounded-3xl border border-slate-800 bg-slate-900/60 p-3 shadow-2xl shadow-black/20 backdrop-blur sm:p-4"
@@ -527,6 +528,7 @@ export function HomePage() {
             </AnimatePresence>
           </div>
         </section>
+        <PortfolioChatbot />
       </div>
     </div>
   );
