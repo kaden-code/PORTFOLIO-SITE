@@ -5,6 +5,11 @@ A fully responsive engineering portfolio website built with React, TypeScript, V
 
 This project was also my first full React portfolio build after mostly working with vanilla HTML, CSS, and JavaScript. It gave me a practical way to learn component-based UI design, modern frontend tooling, routing, animation, deployment, and technical storytelling while building something useful for my career.
 
+## Demo vid
+[![Watch the video](https://img.youtube.com/vi/a9oKxmxaVJ8/maxresdefault.jpg)](https://youtu.be/a9oKxmxaVJ8)
+
+### [Watch the demo on YouTube](https://youtu.be/a9oKxmxaVJ8)
+
 ## Features
 - **Responsive project portfolio** that works across desktop and mobile screens
 - **One-project-at-a-time carousel** with Previous, Next, Shuffle, and direct jump controls
