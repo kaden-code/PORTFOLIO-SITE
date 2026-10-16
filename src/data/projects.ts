@@ -22,7 +22,7 @@ export const projects: Project[] = [
   description:
     "A fully responsive React and TypeScript portfolio website built to showcase embedded systems, robotics, computer vision, IoT, and full-stack projects. The site includes a polished project carousel, custom project dropdown, category filters, animated transitions, a guided portfolio chatbot, resume download, contact page, responsive mobile layout, and deployment-ready routing for Vercel.",
   codeUrl: "https://github.com/kaden-code/PORTFOLIO-SITE",
-  youtubeId: "",
+  youtubeId: "a9oKxmxaVJ8",
   languages: ["TypeScript", "JavaScript", "HTML", "CSS"],
   frameworks: ["React", "Vite", "Tailwind CSS"],
   libraries: [
